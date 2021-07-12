@@ -107,7 +107,9 @@ write.csv(co.matrix,"result.csv")
 ##### -'제로'를 중심으로 환경, 쓰레기, 재활용 줄이기, 나의, 일상, 도전, 등의 단어가 연결 지어짐
 ##### -일상생활 속에서 사람들이 환경과 지구르 지키기 위해 쓰레기를 줄이고 재활용을 실천하는 등 생활 습관의 변화에 노력을 기울이고 있다는 사실을 알 수 있었음
 ##### ⠀
-![image](https://user-images.githubusercontent.com/80669371/125246007-33ad6580-e32c-11eb-9027-7877d0d9add6.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80669371/125247075-83406100-e32d-11eb-9f89-12523f59a654.png" alt="factorio thumbnail"/>
+</p> 
 
 ##### -두번째로 큰 네트워크는 ‘후기’라는 단어를 중심으로 형성되어 있었음
 ##### -‘후기’를 중심으로 방문, 울산, 대구, 직접, 가게, 구매, 사용, 구입, 카페 등의 단어가 연결 지어짐
