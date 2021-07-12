@@ -1,7 +1,7 @@
-## **Analysis of networks viewed by blog keyword crawling : Zero Waste**
-#### 키워드 검색으로 보는 소셜 네트워크 분석 : 제로 웨이스트 
+# **Analysis of networks viewed by blog keyword crawling : Zero Waste**
+### 키워드 검색으로 보는 소셜 네트워크 분석 : 제로 웨이스트 
 ##### ⠀
-##### Package Used
+#### Package Used
 ```
 library(httr)
 library(rvest)
@@ -22,7 +22,7 @@ remotes::install_github("haven-jeon/KoNLP",upgrade="never",INSTALL_opts=c("--no-
 library(KoNLP)
 ```
 ##### ⠀
-### **Crawling Data** 
+## **Crawling Data** 
 ```
 blog <- c()
 
@@ -50,7 +50,7 @@ for (i in 1: 30) {
 </p> 
 
 ##### ⠀
-### **Preprocess Data**
+## **Preprocess Data**
 ```
 #데이터 구조 확인 후 타이틀 추출
 glimpse(blog)
@@ -87,9 +87,9 @@ write.csv(co.matrix,"result.csv")
   <img src="https://user-images.githubusercontent.com/80669371/125241604-9ef43900-e326-11eb-810e-3434e3085eda.png" alt="factorio thumbnail"/>
 </p> 
 
-### **Social Network Visualization**
+## **Social Network Visualization**
 #### -Tool : Gephi
-#### **① Form an entire network**
+### **① Form an entire network**
 ##### 근접한 노드들끼리 같은 색상을 부여시키고 다른 노드들과 연관성이 높은 노드들의 크기를 키운 뒤, Frunchterman Reingold Layout을 사용하여 네트워크 망 펼치기 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80669371/125243082-8edd5900-e328-11eb-8c71-33cc924c80bb.png" alt="factorio thumbnail"/>
@@ -98,7 +98,7 @@ write.csv(co.matrix,"result.csv")
 ##### -실천, 후기, 일상, 라이프, 만들기, 줄이기, 환경, 쓰레기 등의 단어가 추출됨
 ##### -제로웨이스트 검색시 자주 연관되어 검색되는 단어를 알 수 있었으며, 추출된 단어들 만으로도 제로 웨이스트의 의의를 추측할 수 있었음    
 ##### ⠀
-#### **② Detailed Network Analysis**
+### **② Detailed Network Analysis**
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80669371/125243472-1fb43480-e329-11eb-8413-f8d388a5163a.png" alt="factorio thumbnail"/>
 </p> 
