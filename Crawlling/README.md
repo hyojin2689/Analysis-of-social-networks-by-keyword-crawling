@@ -96,7 +96,7 @@ write.csv(co.matrix,"result.csv")
 
 ##### -실천, 후기, 일상, 라이프, 만들기, 줄이기, 환경, 쓰레기 등의 단어가 추출됨
 ##### -제로웨이스트 검색시 자주 연관되어 검색되는 단어를 알 수 있었으며, 추출된 단어들 만으로도 제로 웨이스트의 의의를 추측할 수 있었음    
-
+##### ⠀
 #### **② Detailed Network Analysis**
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80669371/125243472-1fb43480-e329-11eb-8413-f8d388a5163a.png" alt="factorio thumbnail"/>
