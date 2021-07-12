@@ -22,7 +22,7 @@ remotes::install_github("haven-jeon/KoNLP",upgrade="never",INSTALL_opts=c("--no-
 library(KoNLP)
 ```
 ⠀
-### Crawling Data
+### **Crawling Data** 
 ```
 blog <- c()
 
@@ -49,7 +49,7 @@ for (i in 1: 30) {
   <img src="https://user-images.githubusercontent.com/80669371/125240947-c39be100-e325-11eb-8faa-9a66ccd2d23a.png" alt="factorio thumbnail"/>
 </p> 
 
-#### Preprocess Data
+### **Preprocess Data**
 ```
 #데이터 구조 확인 후 타이틀 추출
 glimpse(blog)
@@ -86,7 +86,7 @@ write.csv(co.matrix,"result.csv")
   <img src="https://user-images.githubusercontent.com/80669371/125241604-9ef43900-e326-11eb-810e-3434e3085eda.png" alt="factorio thumbnail"/>
 </p> 
 
-### Social Network Visualization
+### **Social Network Visualization**
 #### -Tool : Gephi
 #### **① Form an entire network**
 ###### 근접한 노드들끼리 같은 색상을 부여시키고 다른 노드들과 연관성이 높은 노드들의 크기를 키운 뒤, Frunchterman Reingold Layout을 사용하여 네트워크 망 펼치기 
