@@ -109,7 +109,6 @@ write.csv(co.matrix,"result.csv")
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80669371/125244483-5b033300-e32a-11eb-825d-3642ef731db3.png" alt="factorio thumbnail"/>
 </p> 
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80669371/125244605-7b32f200-e32a-11eb-96fb-499856cae73e.png" alt="factorio thumbnail"/>
 </p> 
