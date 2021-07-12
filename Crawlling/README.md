@@ -1,6 +1,6 @@
 ## **Analysis of networks viewed by blog keyword crawling : Zero Waste**
 #### 키워드 검색으로 보는 소셜 네트워크 분석 : 제로 웨이스트 
-⠀
+##### ⠀
 ##### Package Used
 ```
 library(httr)
@@ -21,7 +21,7 @@ library(remotes)
 remotes::install_github("haven-jeon/KoNLP",upgrade="never",INSTALL_opts=c("--no-multiarch"))
 library(KoNLP)
 ```
-⠀
+##### ⠀
 ### **Crawling Data** 
 ```
 blog <- c()
@@ -48,7 +48,7 @@ for (i in 1: 30) {
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80669371/125240947-c39be100-e325-11eb-8faa-9a66ccd2d23a.png" alt="factorio thumbnail"/>
 </p> 
-
+##### ⠀
 ### **Preprocess Data**
 ```
 #데이터 구조 확인 후 타이틀 추출
