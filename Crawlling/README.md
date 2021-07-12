@@ -34,11 +34,9 @@ for (i in 1: 30) {
                    "keyword" = "제로웨이스트",
                    "orderBy" = "sim",
                    "startDate" = "2020-01-01",
-                   "type" = "post<p align="center">
-  <img src="https://user-images.githubusercontent.com/80669371/125240947-c39be100-e325-11eb-8faa-9a66ccd2d23a.png" alt="factorio thumbnail"/>
-</p> 
-"),
-      add_headers("referer" = "https://section.blog.naver.com/Search/Post.nh")) %>% httr::content(as = "text") %>% str_remove(pattern = '\\)\\]\\}\',') %>% fromJSON() -> naverBlog
+                   "type" = "post"),
+      add_headers("referer" = "https://section.blog.naver.com/Search/Post.nh")) %>% 
+      httr::content(as = "text") %>% str_remove(pattern = '\\)\\]\\}\',') %>% fromJSON() -> naverBlog
   
   data <- naverBlog$result$searchList
   blog <- bind_rows(blog, data) 
@@ -55,7 +53,8 @@ for (i in 1: 30) {
 ```
 #데이터 구조 확인 후 타이틀 추출
 glimpse(blog)
-blog <- blog %>% select(1, 2, 6) %>% rename(id = blogId, no = logNo, title = noTagTitle) %>% mutate(url = str_glue("http://blog.naver.com/PostView.nhn?blogId={id}&logNo={no}"), contents = NA)
+blog <- blog %>% select(1, 2, 6) %>% rename(id = blogId, no = logNo, title = noTagTitle) %>% 
+mutate(url = str_glue("http://blog.naver.com/PostView.nhn?blogId={id}&logNo={no}"), contents = NA)
 title <- blog[,3]
 
 
@@ -88,11 +87,9 @@ write.csv(co.matrix,"result.csv")
 </p> 
 
 ### Social Network Visualization
-#### Tool : Gephi
+#### -Tool : Gephi
 #### **① Form an entire network**
 ###### 근접한 노드들끼리 같은 색상을 부여시키고 다른 노드들과 연관성이 높은 노드들의 크기를 키운 뒤, Frunchterman Reingold Layout을 사용하여 네트워크 망 펼치기 
-![image](https://user-images.githubusercontent.com/80669371/125243233-c77d3280-e328-11eb-8241-094b09e55186.png)
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80669371/125243082-8edd5900-e328-11eb-8c71-33cc924c80bb.png" alt="factorio thumbnail"/>
 </p> 
@@ -103,3 +100,6 @@ write.csv(co.matrix,"result.csv")
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80669371/125243472-1fb43480-e329-11eb-8413-f8d388a5163a.png" alt="factorio thumbnail"/>
 </p> 
+###### ● 제일 큰 네트워크는 '제로'라는 단어를 중심으로 형성되어 있었음
+###### ● '제로'를 중심으로 환경, 쓰레기, 재활용 줄이기, 나의, 일상, 도전, 등의 단어가 연결 지어짐
+###### ● 일상생활 속에서 사람들이 환경과 지구르 지키기 위해 쓰레기를 줄이고 재활용을 실천하는 등 생활 습관의 변화에 노력을 기울이고 있다는 사실을 알 수 있었음
