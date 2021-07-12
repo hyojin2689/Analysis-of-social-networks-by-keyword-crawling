@@ -106,12 +106,8 @@ write.csv(co.matrix,"result.csv")
 ##### -'제로'를 중심으로 환경, 쓰레기, 재활용 줄이기, 나의, 일상, 도전, 등의 단어가 연결 지어짐
 ##### -일상생활 속에서 사람들이 환경과 지구르 지키기 위해 쓰레기를 줄이고 재활용을 실천하는 등 생활 습관의 변화에 노력을 기울이고 있다는 사실을 알 수 있었음
 ##### ⠀
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/80669371/125244483-5b033300-e32a-11eb-825d-3642ef731db3.png" alt="factorio thumbnail"/>
-</p> 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/80669371/125244605-7b32f200-e32a-11eb-96fb-499856cae73e.png" alt="factorio thumbnail"/>
-</p> 
+<img src="https://user-images.githubusercontent.com/80669371/125244483-5b033300-e32a-11eb-825d-3642ef731db3.png" alt="factorio thumbnail"/> <img src="https://user-images.githubusercontent.com/80669371/125244605-7b32f200-e32a-11eb-96fb-499856cae73e.png" alt="factorio thumbnail"/>
+
 
 ##### -기존의 플라스틱을 대체하는 친환경 제품들을 직접 만들거나 구매하여 사용하기 시작했다는 사실을 알 수 있었음
 ##### -각자 환경 관련 DIY 아이템을 만들어 사용하는 것과, 이익을 창출하는 것이 목적인 기업에서 친환경 제품들을 출시하기 시작한 것을 보아 개인과 사회가 모두 환경에 대한 관심이 높아졌음을 알 수 있음
