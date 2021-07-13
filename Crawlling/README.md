@@ -50,7 +50,7 @@ for (i in 1: 30) {
 </p> 
 
 ##### ⠀
-## **Preprocess Data**
+## **Data Preprocessing**
 ```
 #데이터 구조 확인 후 타이틀 추출
 glimpse(blog)
