@@ -8,7 +8,7 @@
 
 ##### ⠀
 ## **Data Preprocessing**
-#데이터 구조 확인 후 타이틀 추출, 불용어 삭제 후 함께 사용된 단어들끼리 묶어 matrix 형태로 객체 생성
+#### 데이터 구조 확인 후 타이틀 추출, 불용어 삭제 후 함께 사용된 단어들끼리 묶어 matrix 형태로 객체 생성
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80669371/125241604-9ef43900-e326-11eb-810e-3434e3085eda.png" alt="factorio thumbnail"/>
 </p> 
