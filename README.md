@@ -8,7 +8,6 @@
 
 ##### ⠀
 ## **Data Preprocessing**
-```
 #데이터 구조 확인 후 타이틀 추출
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80669371/125241604-9ef43900-e326-11eb-810e-3434e3085eda.png" alt="factorio thumbnail"/>
